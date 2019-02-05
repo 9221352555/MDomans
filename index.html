@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>MatrixDoman</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <div class="alert alert-primary" role="alert">
+            
+            <form class="form-inline" role="form">
+                <h1>Домены в матрице</h1>
+                <div class="form-group field_box">
+                    <label class="control-label" for="n">N:</label>
+                    <input type="number" class="form-control" id="n" value="5" min="1" max="40">
+                </div>
+                <div class="form-group field_box">
+                    <label class="control-label" for="m">M:</label>
+                    <input type="number" class="form-control" id="m" value="5" min="1" max="40">
+                </div>
+                <div class="checkbox field_box">
+                    <button type="button" class="btn btn-primary" id="goworg">Сформировать</button>
+                </div>    
+                <div class="form-group field_box">
+                    <label class="control-label" for="m">Вероятность:</label>
+                    <input type="number" class="form-control" id="possibility" value="0.01" min="0.01" max="0.99" step="0.01">
+                </div>
+                <div class="checkbox field_box">
+                    <button type="button" class="btn btn-primary" id="auto">АВТО</button>
+                </div>    
+                <div class="checkbox field_box">
+                    <button type="button" class="btn btn-primary" id="domens">Домены</button>
+                </div>    
+            </form>            
+        </div>
+        <div class="workslace">
+            <table id="work" class="table table-bordered"></table>
+        </div>
+        <table class="table table-striped">
+            <tbody id="result">
+            <TR>
+                <TH>Вероятность</TH>
+                <TH>Количество доменов в матрице</TH>
+                <TH>Количество ячеек в матрице (N*M)</TH>
+            </TR>
+            </tbody>
+        </table>
+        <div class="message"></div>
+        
+        <script src="js/jquery-3.3.1.min.js" type="text/javascript"></script>
+        <script src="js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="js/script.js" type="text/javascript"></script>
+    </body>
+</html>

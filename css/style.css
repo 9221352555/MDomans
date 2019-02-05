@@ -1,0 +1,187 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 17.01.2019, 15:27:40
+    Author     : simonov
+*/
+
+.result{
+    width:100%;
+}
+
+.field_box{
+    float: left;
+    padding: 0 1vw;
+}
+
+form{display: table;}
+input[type=number]{
+    max-width: 100px; 
+}
+
+.control-label{padding-right: 8px;}
+
+.workslace{
+    width: 100vw;
+    height: 50vh;
+    min-width: 100vw;
+    
+}
+
+.workslace td{
+    margin: 0px;
+    padding: 0px;
+}
+
+.workslace td input.workinput{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    text-align: center;
+}
+
+.workinput[cell_index="1"]{background-color:#F0F8FF}
+.workinput[cell_index="2"]{background-color:#FAEBD7}
+.workinput[cell_index="3"]{background-color:#00FFFF}
+.workinput[cell_index="4"]{background-color:#7FFFD4}
+.workinput[cell_index="5"]{background-color:#F0FFFF}
+.workinput[cell_index="6"]{background-color:#F5F5DC}
+.workinput[cell_index="7"]{background-color:#FFE4C4}
+.workinput[cell_index="8"]{background-color:#000000}
+.workinput[cell_index="9"]{background-color:#FFEBCD}
+.workinput[cell_index="10"]{background-color:#0000FF}
+.workinput[cell_index="11"]{background-color:#8A2BE2}
+.workinput[cell_index="12"]{background-color:#A52A2A}
+.workinput[cell_index="13"]{background-color:#DEB887}
+.workinput[cell_index="14"]{background-color:#5F9EA0}
+.workinput[cell_index="15"]{background-color:#7FFF00}
+.workinput[cell_index="16"]{background-color:#D2691E}
+.workinput[cell_index="17"]{background-color:#FF7F50}
+.workinput[cell_index="18"]{background-color:#6495ED}
+.workinput[cell_index="19"]{background-color:#FFF8DC}
+.workinput[cell_index="20"]{background-color:#DC143C}
+.workinput[cell_index="21"]{background-color:#00FFFF}
+.workinput[cell_index="22"]{background-color:#00008B}
+.workinput[cell_index="23"]{background-color:#008B8B}
+.workinput[cell_index="24"]{background-color:#B8860B}
+.workinput[cell_index="25"]{background-color:#A9A9A9}
+.workinput[cell_index="26"]{background-color:#006400}
+.workinput[cell_index="27"]{background-color:#BDB76B}
+.workinput[cell_index="28"]{background-color:#8B008B}
+.workinput[cell_index="29"]{background-color:#556B2F}
+.workinput[cell_index="30"]{background-color:#FF8C00}
+.workinput[cell_index="31"]{background-color:#9932CC}
+.workinput[cell_index="32"]{background-color:#8B0000}
+.workinput[cell_index="33"]{background-color:#E9967A}
+.workinput[cell_index="34"]{background-color:#8FBC8F}
+.workinput[cell_index="35"]{background-color:#483D8B}
+.workinput[cell_index="36"]{background-color:#2F4F4F}
+.workinput[cell_index="37"]{background-color:#00CED1}
+.workinput[cell_index="38"]{background-color:#9400D3}
+.workinput[cell_index="39"]{background-color:#FF1493}
+.workinput[cell_index="40"]{background-color:#00BFFF}
+.workinput[cell_index="41"]{background-color:#696969}
+.workinput[cell_index="42"]{background-color:#1E90FF}
+.workinput[cell_index="43"]{background-color:#B22222}
+.workinput[cell_index="44"]{background-color:#FFFAF0}
+.workinput[cell_index="45"]{background-color:#228B22}
+.workinput[cell_index="46"]{background-color:#FF00FF}
+.workinput[cell_index="47"]{background-color:#DCDCDC}
+.workinput[cell_index="48"]{background-color:#F8F8FF}
+.workinput[cell_index="49"]{background-color:#FFD700}
+.workinput[cell_index="50"]{background-color:#DAA520}
+.workinput[cell_index="51"]{background-color:#808080}
+.workinput[cell_index="52"]{background-color:#008000}
+.workinput[cell_index="53"]{background-color:#ADFF2F}
+.workinput[cell_index="54"]{background-color:#F0FFF0}
+.workinput[cell_index="55"]{background-color:#FF69B4}
+.workinput[cell_index="56"]{background-color:#CD5C5C}
+.workinput[cell_index="57"]{background-color:#4B0082}
+.workinput[cell_index="58"]{background-color:#FFFFF0}
+.workinput[cell_index="59"]{background-color:#F0E68C}
+.workinput[cell_index="60"]{background-color:#E6E6FA}
+.workinput[cell_index="61"]{background-color:#FFF0F5}
+.workinput[cell_index="62"]{background-color:#7CFC00}
+.workinput[cell_index="63"]{background-color:#FFFACD}
+.workinput[cell_index="64"]{background-color:#ADD8E6}
+.workinput[cell_index="65"]{background-color:#F08080}
+.workinput[cell_index="66"]{background-color:#E0FFFF}
+.workinput[cell_index="67"]{background-color:#FAFAD2}
+.workinput[cell_index="68"]{background-color:#D3D3D3}
+.workinput[cell_index="69"]{background-color:#90EE90}
+.workinput[cell_index="70"]{background-color:#FFB6C1}
+.workinput[cell_index="71"]{background-color:#FFA07A}
+.workinput[cell_index="72"]{background-color:#20B2AA}
+.workinput[cell_index="73"]{background-color:#87CEFA}
+.workinput[cell_index="74"]{background-color:#778899}
+.workinput[cell_index="75"]{background-color:#B0C4DE}
+.workinput[cell_index="76"]{background-color:#FFFFE0}
+.workinput[cell_index="77"]{background-color:#00FF00}
+.workinput[cell_index="78"]{background-color:#32CD32}
+.workinput[cell_index="79"]{background-color:#FAF0E6}
+.workinput[cell_index="80"]{background-color:#FF00FF}
+.workinput[cell_index="81"]{background-color:#800000}
+.workinput[cell_index="82"]{background-color:#66CDAA}
+.workinput[cell_index="83"]{background-color:#0000CD}
+.workinput[cell_index="84"]{background-color:#BA55D3}
+.workinput[cell_index="85"]{background-color:#9370DB}
+.workinput[cell_index="86"]{background-color:#3CB371}
+.workinput[cell_index="87"]{background-color:#7B68EE}
+.workinput[cell_index="88"]{background-color:#00FA9A}
+.workinput[cell_index="89"]{background-color:#48D1CC}
+.workinput[cell_index="90"]{background-color:#C71585}
+.workinput[cell_index="91"]{background-color:#191970}
+.workinput[cell_index="92"]{background-color:#F5FFFA}
+.workinput[cell_index="93"]{background-color:#FFE4E1}
+.workinput[cell_index="94"]{background-color:#FFE4B5}
+.workinput[cell_index="95"]{background-color:#FFDEAD}
+.workinput[cell_index="96"]{background-color:#000080}
+.workinput[cell_index="97"]{background-color:#FDF5E6}
+.workinput[cell_index="98"]{background-color:#808000}
+.workinput[cell_index="99"]{background-color:#6B8E23}
+.workinput[cell_index="100"]{background-color:#FFA500}
+.workinput[cell_index="101"]{background-color:#FF4500}
+.workinput[cell_index="102"]{background-color:#DA70D6}
+.workinput[cell_index="103"]{background-color:#EEE8AA}
+.workinput[cell_index="104"]{background-color:#98FB98}
+.workinput[cell_index="105"]{background-color:#AFEEEE}
+.workinput[cell_index="106"]{background-color:#DB7093}
+.workinput[cell_index="107"]{background-color:#FFEFD5}
+.workinput[cell_index="108"]{background-color:#FFDAB9}
+.workinput[cell_index="109"]{background-color:#CD853F}
+.workinput[cell_index="110"]{background-color:#FFC0CB}
+.workinput[cell_index="111"]{background-color:#DDA0DD}
+.workinput[cell_index="112"]{background-color:#B0E0E6}
+.workinput[cell_index="113"]{background-color:#800080}
+.workinput[cell_index="114"]{background-color:#FF0000}
+.workinput[cell_index="115"]{background-color:#BC8F8F}
+.workinput[cell_index="116"]{background-color:#4169E1}
+.workinput[cell_index="117"]{background-color:#8B4513}
+.workinput[cell_index="118"]{background-color:#FA8072}
+.workinput[cell_index="119"]{background-color:#F4A460}
+.workinput[cell_index="120"]{background-color:#2E8B57}
+.workinput[cell_index="121"]{background-color:#FFF5EE}
+.workinput[cell_index="122"]{background-color:#A0522D}
+.workinput[cell_index="123"]{background-color:#C0C0C0}
+.workinput[cell_index="124"]{background-color:#87CEEB}
+.workinput[cell_index="125"]{background-color:#6A5ACD}
+.workinput[cell_index="126"]{background-color:#708090}
+.workinput[cell_index="127"]{background-color:#FFFAFA}
+.workinput[cell_index="128"]{background-color:#00FF7F}
+.workinput[cell_index="129"]{background-color:#4682B4}
+.workinput[cell_index="130"]{background-color:#D2B48C}
+.workinput[cell_index="131"]{background-color:#008080}
+.workinput[cell_index="132"]{background-color:#D8BFD8}
+.workinput[cell_index="133"]{background-color:#FF6347}
+.workinput[cell_index="134"]{background-color:#40E0D0}
+.workinput[cell_index="135"]{background-color:#EE82EE}
+.workinput[cell_index="136"]{background-color:#F5DEB3}
+.workinput[cell_index="137"]{background-color:#FFFFFF}
+.workinput[cell_index="138"]{background-color:#F5F5F5}
+.workinput[cell_index="139"]{background-color:#FFFF00}
+.workinput[cell_index="140"]{background-color:#9ACD32}
